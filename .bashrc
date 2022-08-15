@@ -31,4 +31,5 @@ alias syf='systemctl list-units --type service --state failed'
 alias sya='systemctl list-units --type service -all'
 alias sy="systemctl"
 alias sr="service"
-alias sra="service --status--all"
+alias sra="service --status-all"
+alias nsp="netstat -plunt"
