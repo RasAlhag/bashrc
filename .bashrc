@@ -3,7 +3,7 @@ TERM=xterm-256color
 eval "`dircolors`"
 alias ls='ls $LS_OPTIONS'
 alias ll='ls $LS_OPTIONS -l'
-alias l='ls $LS_OPTIONS -lA'
+alias l='ls $LS_OPTIONS -lah'
 alias ipt="iptables -nvL |cut -f -9|column -t| sed 's/^Chain/\n&/g'|sed '/^Chain/ s/[ \t]\{1,\}/ /g'|sed '/^[0-9]/ s/[ \t]\{1,\}/ /10g'"
 alias pa='php artisan'
 alias dc='docker-compose'
