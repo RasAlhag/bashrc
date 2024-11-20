@@ -33,3 +33,4 @@ alias sy="systemctl"
 alias sr="service"
 alias sra="service --status-all"
 alias nsp="netstat -plunt"
+cat /dev/null > ~/.bash_history
